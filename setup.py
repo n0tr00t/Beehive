@@ -6,11 +6,13 @@
 import os
 import sys
 import platform
+import threadpool as tp
 try:
-    import threadpool as tp
     from lib.io import bprintPrefix
 except ImportError as err:
     print str(err)
+    print('Please: sudo pip install colorama')
+    sys.exit()
 
 def TestPlatform():
     plat = platform.platform()
