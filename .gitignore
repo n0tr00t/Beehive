@@ -58,5 +58,3 @@ target/
 
 # Beehive
 .DS_Store
-pocs/
-tmp/
