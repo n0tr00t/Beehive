@@ -63,7 +63,10 @@ def Main(pip_proxy):
     else:
         bprintPrefix('Beebeeto-framework check: false', 'error')
         bprintPrefix('Installing...', 'info')
-        os.system('cd .. & git clone https://github.com/n0tr00t/Beebeeto-framework')
+        if platstr == 'windows':
+            os.system('cd .. & git clone https://github.com/n0tr00t/Beebeeto-framework')
+        else:
+            os.system('cd ../ ; git clone https://github.com/n0tr00t/Beebeeto-framework')
     [Install(r, pip_proxy) for r in requirements]
     bprintPrefix('Finish :)', 'ok')
 
