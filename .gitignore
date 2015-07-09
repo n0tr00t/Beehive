@@ -7,18 +7,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
 .eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -34,7 +23,6 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
 .tox/
 .coverage
 .coverage.*
@@ -47,14 +35,11 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-
 # Sphinx documentation
 docs/_build/
 
-# PyBuilder
-target/
-
 # Beehive
 .DS_Store
+hive.db
+pocs/
+tmp/
