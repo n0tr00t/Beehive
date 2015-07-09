@@ -1,0 +1,6 @@
+gevent
+colorama
+pyparsing
+threadpool
+pyreadline
+prettytable

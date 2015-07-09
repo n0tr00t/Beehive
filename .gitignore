@@ -55,3 +55,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Beehive
+.DS_Store
+pocs/
+tmp/
