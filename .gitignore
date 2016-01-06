@@ -43,6 +43,5 @@ docs/_build/
 
 # Beehive
 .DS_Store
-hive.db
 pocs/
 tmp/
