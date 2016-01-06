@@ -4,3 +4,7 @@ pyparsing
 threadpool
 pyreadline
 prettytable
+requests
+redis
+paramiko
+pymongo
